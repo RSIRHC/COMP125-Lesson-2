@@ -3,14 +3,14 @@
 // IIFE - Immediately Invoked Function Expression 
 (function(){
     "use strickt"; 
+        
+    //code goes here        
+    console.log("App started..");
     
+    // create a reference to a p element with an id of "firstParagraph"
+    var firstParagraph = document.getElementById("firstParagraph"); 
     
-    
-//code goes here    
-    
-    console.log("App started..")
-    
-    
+    firstParagraph.textContent = "It's alive!!"; 
     
     
     
